@@ -11,6 +11,6 @@
 	});
 }) ();
 
-requirejs('app/first'], function () {
+requirejs(['app/first'], function () {
 	console.log('app boostrap');
 });
