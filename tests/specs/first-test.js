@@ -18,7 +18,7 @@ define(['lib/angular-mocks', 'app/first'], function (ng, first) {
 		});
 
 		it('should set the color property to black', function () {
-			expect($scope.color).to.be('black');
+			expect($scope.color).to.equal('black');
 		});
 	});
 });
